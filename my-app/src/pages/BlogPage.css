@@ -1,0 +1,94 @@
+
+.App {
+    text-align:left;
+    margin-left : 160px; 
+  }
+  
+  .h1-title{
+    background-color:#ccc;
+    letter-spacing:-1px;
+    border: solid;
+    border-radius:10px;
+    margin:10px;
+    padding:10px;
+    width:fit-content;
+    text-align:center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  .column-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .left-container {
+    background-color:#ccc;
+    border: solid;
+    border-radius:10px;
+    margin:10px;
+    padding-left:15px;
+    padding-top:0px;
+    padding-right:15px;
+    width:50%;
+    padding-bottom: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .right-container {
+    background-color:#ccc;
+    border: solid;
+    border-radius:10px;
+    margin:10px;
+    padding-left:15px;
+    padding-top:0px;
+    padding-right:15px;
+    width:50%;
+    padding-bottom: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .div-container{
+    background-color:#ccc;
+    border: solid;
+    border-radius:10px;
+    margin:10px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:15px;
+    width:fit-content;
+    padding-bottom: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .div-container-2{
+    border:solid;
+    list-style:none;
+    line-height: 150%;
+    width:fit-content;
+    background-color:#fff;
+    border-radius:10px;
+    margin:10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding:10px;
+  }
+  
+  .slideshow {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .slides-container {
+    display: inline-block;
+    width: 500%;
+    transition: left 0.5s;
+  }
+  
+  .slide {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+  }
+  

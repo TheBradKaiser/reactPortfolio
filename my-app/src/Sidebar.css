@@ -1,0 +1,55 @@
+
+.sidebar {
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(142, 142, 255);
+    color: white;
+    transition: width 0.2s ease;
+    border-right-style: solid;
+    border-right-color: black;
+  }
+
+
+  .profilePic {
+    width:96px;
+    transition: transform 0.5s, width 0.2s ease;
+    border-radius:125px;
+    border:solid;
+    border-color:black;
+    border-width:2px;
+  }
+
+
+  .sidebar:hover .profilePic {
+    width:146px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    
+    
+  }
+  .sidebar:hover {
+    width:150px;
+  }
+
+
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    background-color: lightblue;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+  }

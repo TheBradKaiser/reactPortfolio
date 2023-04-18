@@ -1,0 +1,71 @@
+{
+    "name": "Brad Kaiser",
+    "CurrentEmployer": "Nationwide Mutual Insurance Company",
+    "School": "The Ohio State University",
+    "Interests": [
+      "Video Games",
+      "Programming",
+      "Exploring",
+      "Gardening",
+      "Cats",
+      "Board Games",
+      "3D Printing",
+      "Fixing Things",
+      "Learning Things",
+      "Eating Things"
+    ],
+    "Para1": "Hello! I'm Brad and i'm currently working on exploring the world of FRONT END DEVELOPMENT! I also figured I needed a website, so here it is! I am interested in new technology, AI, ML, Big Data, Videogames, Game Theory, Efficiency, and innovation.",
+    "Para2": "I am just a guy whos looking for a job that fulfills most, if not all, of the following criteria: ",
+    "jobCriteria": [
+      "$150,000+/yr",
+      "AWS & Python",
+      "Focus on Serverless Computing",
+      "Interesting Subject Matter",
+      "Big Data",
+      "IoT Devices",
+      "Friendly Teammates",
+      "Nuturing Innovation"
+    ],
+    "Para3": "Thank you for your time in visiting my website!",
+    "ContactEmail": "mailto:BradEdKaiser@Gmail.com",
+    "Websites": [
+      "https://www.linkedin.com/in/bradley-k/",
+      "https://github.com/TheBradKaiser"
+    ],
+    "CurrentlyPlaying": [
+      "Dead Cells",
+      "Against The Storm",
+      "Pizza Tower",
+      "Scrabble",
+      "Crossword"
+    ],
+    "CurrentlyLearning": [
+      "AWS AppFlow",
+      "AWS DeepLens",
+      "PyTorch",
+      "Linear Algebra",
+      "3D Printing",
+      "Front-End Design"
+    ],
+    "CurrentlyReading": [
+      "The Art of Strategy",
+      "The Society of the Spectacle",
+      "How to Blow Up a Pipeline",
+      "Industrial Society and its Future"
+    ],
+    "CurrentlyWatching": [
+      "Joe Pera Talks with You",
+      "Yellowjackets",
+      "Its Always Sunny in Philadelphia",
+      "Workaholics"
+    ],
+    "FunFacts": [
+      "I am 6'4\"",
+      "I have an Identical Twin Brother",
+      "I enjoy [adult swim] programming",
+      "I used to work as a server at a mexican restaurant",
+      "I grew an 12lb butternut squash in 2021"
+    ],
+    "sitenotes": "This site was inspired by the retro brutalism web design movement"
+  }
+  

@@ -1,0 +1,20 @@
+
+.slideshow {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .slides-container {
+    display: inline-block;
+    width: 500%;
+    transition: left 0.5s;
+  }
+  
+  .slide {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+  }
+  

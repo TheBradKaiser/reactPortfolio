@@ -1,0 +1,12 @@
+[
+    {
+        "title":"hello world!",
+        "date":"2023-04-18 11:00:00",
+        "body":"This is my first blog post! This is a React App created using create-react-app. It is hosted as a static site in an aws s3 bucket. I have logging turned on and set up lifecycle rules to account for a lotta logs. I have set a budget of 1 dollar before i am alerted by aws about going over my spending limit. i am scared of that suprise 50k bill aws is known so well for."
+    },
+    {
+        "title":"a rant about react and walmart",
+        "date":"2023-04-18 11:01:00",
+        "body":"The process i went through to create this website may not have been the best way to do so. What i ended up doing is throwing most of the actual content of the page into json files and ended up just referencing that data to make it easy to modify and add new items in the future. i'm also writing thsi right now within VS code into a json file, so if there are any spelling mistakes, blame github co-pilot for not catching them. Anyway, figuring out how to get images to work on this site made me almost pull my hair out. the issue initially was that i had filenames that had spaces in them, so i was like 'oh i gotta get rid of those spaces, i'll just make a python script that runs on start/deploy to gather all the files, uri encode them, and then throw them into the public folder for public consumption', meanwhile throwing all the file data (name, category, filepath) into a json file so i can pull all the files that way. OPE that didnt work cause it didnt like it, and it took me about 2 hours to puzzle out it wasnt an issue with directories, or permissions, or relative file paths, but BECAUSE THERE WERE % SIGNS IN THE FILENAME. so i replaced all the bad characters with -'s or nothing, and then tried again and IT WORKED! i am still frustrated and just had to go to walmart and half of the self checkouts were down and there were people like, legit bleeding on the floor for some reason. idk. they're also re-arranging the walmart again, i remember when the major aisles that went perpendicular with the regular aisles were wide open, 4 carts wide, well they caught on and threw a new aisle in the middle of that bad boy, making it even more crowded."
+    }
+]

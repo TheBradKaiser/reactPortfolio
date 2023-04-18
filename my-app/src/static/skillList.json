@@ -1,0 +1,107 @@
+
+[
+    {
+      "skill": "SQL",
+      "subSkills": ["Microsoft SQL Server", "MySQL", "Oracle SQL"]
+    },
+    { "skill": "Javascript", "subSkills": ["React", "JQuery", "Svelte"] },
+    { "skill": "TypeScript", "subSkills":[]},
+    {
+      "skill": "Python",
+      "subSkills": [
+        "Flask",
+        "Django",
+        "Selenium",
+        "Pyspark",
+        "Pandas",
+        "numPy",
+        "sciKit",
+        "Boto3"
+      ]
+    },
+    { "skill": "Go", "subSkills": [] },
+    { "skill": "HTML", "subSkills": [] },
+    { "skill": "APIs", "subSkills":["OpenAPI", "REST", "OAuth", "Swagger"]},
+    { "skill":"IaC", "subSkills":["DockerFile","BuildSpecs","CloudFormation","Scaling Architecture"]},
+    { "skill": "CSS", "subSkills": [] },
+    {
+      "skill": "Powerapps",
+      "subSkills": ["Flows", "Canvas Apps", "Connectors", "Solutions"]
+    },
+    { "skill": "Powershell", "subSkills": [] },
+    { "skill": "Bash", "subSkills": [] },
+    { "skill": "YAML", "subSkills": ["Cloudformation Templates"] },
+    { "skill": "JSON", "subSkills": ["AWS IAM Policies", "Data manipulation", "Exploding Schemas"] },
+    { "skill": "XML", "subSkills": [] },
+    {
+      "skill": "Databricks",
+      "subSkills": [
+        "Github Integration",
+        "Schema Design",
+        "Deltalakes",
+        "S3 integration",
+        "Autoloaders",
+        "Clusters"
+      ]
+    },
+    {
+      "skill": "AWS",
+      "subSkills": [
+        "CloudFormation",
+        "CodePipeline",
+        "Lambda",
+        "EC2",
+        "S3",
+        "SNS",
+        "SQS",
+        "CloudWatch",
+        "IAM",
+        "DynamoDB",
+        "FSx",
+        "EFS",
+        "SecretsManager",
+        "API Gateway"
+      ]
+    },
+    { "skill": "Jira", "subSkills": ["Board Customization", "API Integration"] },
+    {
+      "skill": "Github",
+      "subSkills": ["Github Desktop", "API Integration", "Github Actions", "Git"]
+    },
+    {
+      "skill": "VS Code",
+      "subSkills": ["Extension Implementation", "Git Integration"]
+    },
+    { "skill": "Postman", "subSkills": [] },
+    { "skill": "Docker", "subSkills": [] },
+    { "skill": "Tableau", "subSkills": [] },
+    { "skill": "Splunk", "subSkills": ["Integrations", "Dashboards","Alerting"] },
+    { "skill": "Snowflake", "subSkills": ["Integrations", "Schema Design", "ACID"] },
+    { "skill": "ServiceNow", "subSkills": ["Team Management", "Incident Management", "Change Management"] },
+    { "skill": "Windows", "subSkills": ["25 years experience"] },
+    { "skill": "Linux", "subSkills": ["Raspbian", "AWS Lambda Environments", "AWS Codebuild"] },
+    {
+      "skill": "Azure",
+      "subSkills": ["MS Graph API", "Active Directory", "App Registration"]
+    },
+    {
+      "skill": "MS Office Suite",
+      "subSkills": ["Powerpoint", "Word", "Excel", "Access", "Outlook"]
+    },
+    {
+      "skill": "Soft Skills",
+      "subSkills": [
+        "Troubleshooting",
+        "Agile",
+        "DevOps",
+        "Empathy",
+        "Leadership",
+        "Strategy",
+        "Planning",
+        "Experimental",
+        "MVPs",
+        "PoCs"
+      ]
+    }
+  ]
+  

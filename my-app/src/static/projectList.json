@@ -1,0 +1,167 @@
+
+[
+    {
+      "project": "Fintech Data Modernization Project",
+      "year": "2023",
+      "type": "Professional",
+      "points": [
+        "Designed framework for centralizing finance data to allow for easy consumption from many different reporting systems (Tableau, Power BI, etc)",
+        "Collaborated with Business and IT to design framework for modern data reporting.",
+        "Developed POCs for high priority systems to enable faster speed to market.",
+        "Implemented Medallion Architecture for access control and faster ETL Development",
+        "Enabled success by mentoring and educating team every step of the way."
+      ]
+    },
+    {
+      "project": "Financial Regulatory Controls - Self Service",
+      "year": "2022",
+      "type": "Professional",
+      "points": [
+        "Serverless React SPA that automates the collection of evidence for regular audits.",
+        "Designed and Implemented utilizing API Gateway, Lambda, and CloudFormation IaC.",
+        "Integrated financial databases and file structures to collect evidence for audits.",
+        "Saves over 300 hour per year in financial audit evidence collection. "
+      ]
+    },
+    {
+      "project": "Process & Task Mining Data Pipeline",
+      "year": "2022-2023",
+      "type": "Professional",
+      "points": [
+        "Created multiple PoCs for transferring GB of sensitive data to an external vendor for use in creating Process & Task mining insights.",
+        "Implemented API layers for Databases and Apps to send data in a secure manner.",
+        "Configured On-Premises database connection uplink for collecting and masking data.",
+        "Researched data models and worked with business to ensure their end goals are met.",
+        "Modeled and Curated data for use in dashboard development by Vendor and business. ",
+        "Currently running in production with 10+ connections without any issue. "
+      ]
+    },
+    {
+      "project": "Twitter Sentiment Analysis for Crypto Currency Forecasting",
+      "year": "2022",
+      "type": "Professional",
+      "points": [
+        "Hackathon Project to determine if it was possible to predict future crypto currency prices using aggregated sentiment analysis data from Twitter.",
+        "Created IaC CI/CD pipelines for gathering and aggregating tweet and crypto data.",
+        "Utilized Python's SciKit-Learn Machine Learning module to generate random forests to find correlation between tweets and future crypto currency prices.",
+        "Achieved a 52% accuracy on predictions on whether BTC or DOGE would go up or down."
+      ]
+    },
+    {
+      "project": "Celonis Data Pipeline",
+      "year": "2022",
+      "type": "Professional",
+      "points": [
+        "Designed and created multiple PoCs for transferring GBs of sensitive data to external vendors on a daily basis.",
+        "Worked with Stakeholders to gather requirements and identify KPIs within their applications.",
+        "Implemented Data pipelines and transformations to protect and pseudonymize sensitive information.",
+        "Designed data models for consumption and analysis using PQL (Process Query Language based on Vertica SQL.)",
+        "Designed and developed dashboards and analyses for finance data within Celonis environment."
+      ]
+    },
+    {
+      "project": "SLAM - Service-Level Agreement Monitor",
+      "year": "2022",
+      "type": "Professional",
+      "points": [
+        "Designed and developed Serverless SLA Monitoring software for batch interfaces, utilizing Cron/Custom schedules.",
+        "Created Front-end Dashboard via API Gateway, AWS Lambda, and Python's Flask module.",
+        "Implemented via CI/CD code pipeline and with IAC Codebuild processes.",
+        "Currently monitors over 400 different batch processes and creates incident tickets via ServiceNow's API.",
+        "Allows for easy modification of backend data via front end portal, secured by Active Directory permissions."
+      ]
+    },
+    {
+      "project": "Github Seperation of Duties Bot",
+      "year": "2023",
+      "type": "Professional",
+      "points": [
+        "Utilized Github's API and MS Graph API's active directory endpoint to validate that users could not develop and push their own changes to production.",
+        "Scheduled using Eventbridge on Lambda to scan directories and alert if a user is able to make changes and push changes in a repo",
+        "Utilizing Active Directory we're able to automate the email to CC to the users manager."
+      ]
+    },
+    {
+      "project": "Headless AND Serverless Chrome Automation Effort",
+      "year": "2021",
+      "type": "Professional",
+      "points": [
+        "Utilized Lambda, Python, Selenium, and Headless Chrome to automate screenshotting of web pages.",
+        "Implemented via IaC CloudFormation yamls, and AWS CodePipeline.",
+        "Able to automate previously manual effort with low costs and no servers.",
+        "Connected to MS Graph API to save screenshots into sharepoint sites."
+      ]
+    },
+    {
+      "project": "Batch Address Validation Utilizing GCP's Places API",
+      "year": "2021",
+      "type": "Professional",
+      "points": [
+        "Many addresses are malformed and used to have to be corrected manually.",
+        "Using a script we're able to enter the addresses into a file and send calls to Google Cloud Platform's Places API to validate the address.",
+        "Generated a list of bad addresses, along with the top suggested address fix as provided by GCP."
+      ]
+    },
+    {
+      "project": "Pipeline Update Automation using Selenium",
+      "year": "2022",
+      "type": "Professional",
+      "points": ["Over 20 AWS CodePipelines had to be re-created to conform to new standards in Enterprise.",
+       "In order to automate this I created a selenium script with an input of JSON data to create new pipelines using the proper data.",
+       "Saved over 2 hours of time by completing pipeline re-creation at a rate of 1 every 30 seconds"]
+    },
+    {
+      "project": "Automated Directory Rebuilder",
+      "year": "2021",
+      "type": "Professional",
+      "points": ["Several applications in Enterprise require rigid directory structure, but you cant just copy all the folders and paste them somewhere else without copying the files too.", 
+      "Created Python script to walk directories to generate a new zipped file of folders in the structure required.", 
+      "Utilized to copy folder structure from Windows to S3, and Unix environments"]
+    },
+    {
+      "project": "User License Management Automation",
+      "year": "2021",
+      "type": "Professional",
+      "points": ["Created monthly lambda script to automate the validation of users with specific application licenses.", 
+      "Checks if users are still at enterprise, and last log in time, to validate that user still requires license.", 
+      "Saves over 20 hours a year manual work, and $1-5k per year on license costs."]
+    },
+    {
+      "project": "Rocketchat Jeopardy Bot",
+      "year": "2020",
+      "type": "Professional",
+      
+      "points": ["Created bot within RocketChat to ask Jeopardy style questions and award users correct answers.", 
+      "Created using Python, TinyDB, a Jeopardy Question database, and RocketChat's API", 
+      "Many hours of productivity were lost playing this game, all around the enterprise."]
+    },
+    {
+      "project": "Reddit Image Scraper",
+      "year": "2022",
+      "type": "Personal",
+      "points": ["Created Python script to scan a subreddit for new image posts every few hours, then save new pictures uploaded to subreddit.", "Utilized Python, TinyDB, BeautifulSoup, and Requests.", "Created customizable framework to save other posts and comments if wanted."]
+    },
+    {
+      "project": "JQuery Pathfinder PoC",
+      "year": "2022",
+      "type": "Personal",
+      "link":"github.com",
+      "points": ["Created CSR pathfinding algorithm utilizing JQuery and grids", "Allows user to create blocks for path to navigate around.", "First real effort with Front-End development and JQuery"]
+    },
+    {
+      "project": "Svelte Cookie Clicker",
+      "year": "2023",
+      "type": "Personal",
+      "link":"github.com",
+      "points": ["Created basic framework for Cookie-Clicker-esque game using Svelte", "Allows user to gather materials and sell said materials for more money.", "Created multiple upgrade systems for user to utilize to make more money, faster."]
+    },
+    {
+      "project": "Raspi Webcam Timelapse Script",
+      "year": "2021",
+      "type": "Personal",
+      "link":"github.com",
+      "points": ["Created script to automate webcam actions to create time lapse videos using an attached webcam.", "Created to get a timelapse view of my garden and plants.", "Has been knocked over one by cats too many times and I gave up on trying to make it work."]
+    }
+  ]
+  
+  
