@@ -19,10 +19,10 @@ function App() {
   const sideBar = [
     { id: 1, title: 'Home', url: '/' },
     { id: 2, title: 'Projects & Skills', url: '/about' },
-    { id: 3, title: 'Contact', url: '/contact' },
+    { id: 3, title: 'AI Image Portfolio', url: '/ai-images'},
     { id: 4, title: 'Showcase', url: '/showcase'},
     { id: 5, title: 'Blog', url: '/blog'},
-    { id: 6, title: 'AI Image Portfolio', url: '/ai-images'},
+    { id: 6, title: 'Contact', url: '/contact' },
     // { id: 5, title: "Cookie Clicker", url:"/cookieclicker"}
   ];
 
@@ -41,8 +41,8 @@ function App() {
           <Route path="/blog" element={<BlogPage/>}/>
           <Route path="/ai-images" element={<ImagePage/>}/>
           {/* <Route path="/cookieclicker" element={<CookieClickerPage/>}/> */}
-          {/* <Route path="*.png"/>
-          <Route path="*" element={<NotFoundPage/>} /> */}
+          {/* {/* <Route path="*.png"/> */}
+          <Route path="*" element={<NotFoundPage/>} /> 
           
         </Routes>
 

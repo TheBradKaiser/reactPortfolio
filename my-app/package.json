@@ -19,11 +19,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "py ./createManifest.py && react-scripts start",
+    "start": "py ./createManifest.py && py ./blogger.py && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "py ./createManifest.py && npm run build && aws s3 sync build/ s3://brads-portfolio"
+    "deploy": "py ./createManifest.py && py ./blogger.py && npm run build && aws s3 sync build/ s3://brads-portfolio"
   },
   "eslintConfig": {
     "extends": [
